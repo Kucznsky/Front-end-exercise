@@ -7,7 +7,13 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open Index.html",
+            "name": "chrome",
+            "file": "c:\\Users\\micha\\Documents\\Front-end-exercise\\HTML1\\Index.html"
+        }
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "firefox",
             "file": "c:\\Users\\micha\\Documents\\Front-end-exercise\\HTML1\\Index.html"
         }
     ]
