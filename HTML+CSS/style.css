@@ -1,6 +1,16 @@
 body{
+    background-color:white;
+    color: black;
+}
+
+#Page-1{
     background-color: #333;
-    color: #fff
+    color: #fff;
+}
+
+.Page1-class{
+    background-color: #333;
+    color: #fff;
 }
 
 h1{
@@ -22,4 +32,27 @@ ol{
     margin: 20px;
     padding: 20px;
     color:aqua;
+}
+
+/* Styles for the Descendant Selector*/
+
+.primary-box {
+    background-color:#fff;
+    border-style: solid;
+    padding: 20px;
+    color:black;
+}
+
+.secondary-box {
+    background-color: #333;
+    color:#ffffff;
+}
+
+.secondary-box p{
+    font-size: 14px;
+    font-style:normal;
+}
+
+.secondary-box p em{
+    color:#fc3fc3;
 }
