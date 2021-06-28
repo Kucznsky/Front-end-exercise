@@ -56,3 +56,9 @@ ol{
 .secondary-box p em{
     color:#fc3fc3;
 }
+
+/* Styles for the Grouping Selector*/
+
+.primary-box, .secondary-box {
+    margin:3em 1em;
+}
