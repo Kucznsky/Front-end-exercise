@@ -4,14 +4,17 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "chrome",
+            "file": "c:\\Users\\micha\\Documents\\Front-end-exercise\\HTML+CSS\\grouping.html"
+        }
         {
             "type": "firefox",
             "request": "launch",
-            "reAttach": true,
-            "name": "Launch index.html",
-            "file": "${workspaceFolder}/index.html"
-        },
-
+            "name": "firefox",
+            "file": "c:\\Users\\micha\\Documents\\Front-end-exercise\\HTML+CSS\\grouping.html"
+        }
     ]
 }

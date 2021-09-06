@@ -62,3 +62,14 @@ ol{
 .primary-box, .secondary-box {
     margin:3em 1em;
 }
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 0 0 10px;
+}
+
+#mainContainer {
+    width: 960px;
+    margin: 0 auto;
+}
