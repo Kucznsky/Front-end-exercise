@@ -3,3 +3,10 @@ body {
     font-size: 24px;
     color: #fff
 }
+.slider {
+    cursor: pointer;
+}
+.slider::after {
+    font-family: "FontAwesome";
+    content: "\f03e";
+}
