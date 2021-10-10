@@ -1,5 +1,9 @@
 var number = Math.floor(Math.random()*7)+1; //floor zaokragla liczbe w dol//losowanie liczby od 1 do 7
 
+function Hide()
+{
+    $("#slider").fadeOut(500); //animacja znikniecia slajdow
+}
 function ChangeSlide()
 {
     number++;
@@ -8,6 +12,8 @@ function ChangeSlide()
     var file = "<img src=\"Data//s" + number + ".png\">";
 
     document.getElementById("slider").innerHTML = file;
-
-    setTimeout("ChangeSlide()",10000) //funkcja ma sie wywolac po uplywie 10 sekund
+    $("#slider").fadeIn(500); //animacja pojawienia sie slajdow
+    setTimeout("ChangeSlide()",5000) //funkcja ma sie wywolac po uplywie 10 sekund
+    setTimeout("Hide()",4500);
+    
 }
