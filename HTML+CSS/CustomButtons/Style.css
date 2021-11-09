@@ -1,0 +1,61 @@
+body {
+  background-color: #222;
+}
+
+.fb-style-btn {
+  border-radius: 2px;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+
+.fb-style-dark {
+  -moz-box-shadow: 0 1px 0 0 #4d73bf;
+  -webkit-box-shadow: 0 1px 0 0 #4d73bf;
+  box-shadow: 0 1px 0 0 #4d73bf;
+  background-color: #4267b2;
+  color: white;
+  border: solid 1px #4267b2;
+  text-shadow: 0 1px 0 #3359a5;
+}
+
+.fb-style-dark:hover {
+  background-color: #2b54a7;
+}
+
+.fb-style-dark:active {
+  background-color: #1d4698;
+  border-color: #1d4698;
+}
+
+.btn-3d-1 {
+  position: relative;
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  font-size: 1.4rem;
+  box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+  outline: none;
+}
+
+.btn-3d-1:hover {
+  background-color: hsl(16, 100%, 45%);
+}
+
+.btn-3d-1:active {
+  background: hsl(16, 100%, 40%);
+  top: 3px;
+  left: -3px;
+  box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
+}
+
+.btn-3d-1::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0;
+  width: 0;
+
+  border: solid 6px transparent;
+  border-right: solid 6px hsl(16, 100%, 30%);
+}
