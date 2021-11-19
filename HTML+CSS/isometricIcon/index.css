@@ -102,7 +102,13 @@ ul li:nth-child(1):hover span {
 }
 
 ul li:nth-child(2):hover span {
-  background-color: #24405f;
+  background-image: linear-gradient(
+    to bottom left,
+    #4c68d7,
+    #8a3ab9,
+    #cd486b,
+    #fbad50
+  );
 }
 
 ul li:nth-child(3):hover span {
